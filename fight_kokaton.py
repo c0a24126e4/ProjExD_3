@@ -204,7 +204,6 @@ def main():
         score.update(screen)  # スコア表示
 
 
-
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
         for beam in beams:
